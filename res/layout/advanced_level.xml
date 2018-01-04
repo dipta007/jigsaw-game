@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:background="@drawable/menu">
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Image One"
+            android:id="@+id/buttonAdvImage1"
+            android:onClick="clickOnButton"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Image Two"
+            android:layout_marginTop="10dp"
+            android:id="@+id/buttonAdvImage2"
+            android:onClick="clickOnButton"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Image Three"
+            android:layout_marginTop="10dp"
+            android:id="@+id/buttonAdvImage3"
+            android:onClick="clickOnButton"/>
+</LinearLayout>

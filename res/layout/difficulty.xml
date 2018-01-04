@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/menu">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Are You Ready For ?"
+                android:textColor="#151B54"
+                android:textSize="28dp"
+                android:id="@+id/textView"
+                android:textStyle="bold|italic"/>
+        <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beginner ( 2X2 )"
+                android:id="@+id/buttonBeginner"
+                android:onClick="clickOnButton"/>
+        <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Intermediate ( 3X3 )"
+                android:id="@+id/buttonIntermediate"
+                android:onClick="clickOnButton"/>
+        <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Advanced (4X4)"
+                android:id="@+id/buttonAdvanced"
+                android:onClick="clickOnButton"/>
+</LinearLayout>

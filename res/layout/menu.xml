@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/menu"
+              android:padding="20dp">
+
+
+    <Button
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:text=""
+            android:background="@drawable/sound_on"
+            android:id="@+id/buttonSound"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:onClick="clickOnButton"/>
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_start"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="163dp"
+            android:id="@+id/buttonStart"
+            android:onClick="clickOnButton"/>
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_high"
+            android:layout_marginTop="223dp"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/buttonHigh"
+            android:onClick="clickOnButton"/>
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_quit"
+            android:layout_marginTop="223dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/buttonQuit"
+            android:onClick="clickOnButton"/>
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_credits"
+            android:layout_marginTop="223dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/buttonCredits"
+            android:onClick="clickOnButton"/>
+</RelativeLayout>

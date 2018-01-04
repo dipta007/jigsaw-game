@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.Jigsaw"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="15"/>
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher"
+                 android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        <activity android:name="Splash"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Menu" android:screenOrientation="portrait"/>
+        <activity android:name=".Difficulty" android:screenOrientation="portrait"/>
+        <activity android:name=".BeginnerLevel" android:screenOrientation="portrait"/>
+        <activity android:name=".BeginnerImageOne" android:screenOrientation="portrait"/>
+        <activity android:name=".BeginnerImageOneGame" android:screenOrientation="portrait"/>
+        <activity android:name=".Win" android:screenOrientation="portrait"/>
+        <activity android:name=".IntermediateLevel" android:screenOrientation="portrait"/>
+        <activity android:name=".IntermediateImageOne" android:screenOrientation="portrait"/>
+        <activity android:name=".IntermediateImageOneGame" android:screenOrientation="portrait"/>
+        <activity android:name=".AdvancedLevel" android:screenOrientation="portrait"/>
+        <activity android:name=".AdvancedImageOne" android:screenOrientation="portrait"/>
+        <activity android:name=".AdvancedImageOneGame" android:screenOrientation="portrait"/>
+        <activity android:name=".HighScore" android:screenOrientation="portrait"/>
+        <activity android:name=".Credits"/>
+    </application>
+</manifest>

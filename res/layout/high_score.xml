@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/high_score">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="SCOREBOARD"
+                android:layout_marginTop="60dp"
+                android:textColor="#4EE2EC"
+                android:id="@+id/textView2" android:layout_gravity="center_horizontal"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginTop="20dp"
+                android:text="Large text"
+                android:id="@+id/textViewHigh"
+                android:layout_gravity="center_horizontal"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textViewMedium"
+                android:layout_gravity="center_horizontal"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textViewLow"
+                android:layout_gravity="center_horizontal"/>
+        <Button
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/reset"
+                android:layout_marginTop="40dp"
+                android:id="@+id/buttonReset"
+                android:onClick="clickOnButton"
+                android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</LinearLayout>
